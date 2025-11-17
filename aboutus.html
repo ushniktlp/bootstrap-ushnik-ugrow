@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ushnik Bootstrap</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="aboutus.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <style></style>
+  </head>
+  <body>
+    <!-- Top Info Navbar (Sticky) -->
+    <nav class="navbar navbar-expand-lg py-2 fixed-top shadow">
+      <div class="container">
+        <div class="d-flex w-100 justify-content-between">
+          <div style="color: white" class="d-flex gap-3">
+            <span><i class="fas fa-map-marker-alt me-1"></i>Hyderabad</span>
+            <span><i class="fas fa-phone me-1"></i>+91 77029 01217 </span>
+            <span><i class="fas fa-envelope me-1"></i>info@ushnik.in</span>
+          </div>
+          <div class="d-flex gap-3">
+            <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Navbar (Sticky) -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow"
+      style="top: 40px"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            style="width: 200px"
+            src="./images/U_GROW.png"
+            alt="U-GROW Logo"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNavbar"
+          aria-controls="mainNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="mainNavbar"
+        >
+          <ul class="navbar-nav gap-4">
+            <!-- gap-4 adds spacing -->
+            <li class="nav-item">
+              <a class="nav-link nav-link-dark" href="home.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link nav-link-dark" href="aboutus.html">About Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link nav-link-dark" href="allcourses.html"
+                >All Courses</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link nav-link-dark" href="programs.html"
+                >Explore Programs</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link nav-link-dark" href="schedule.html"
+                >Course Schedule</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link nav-link-dark" href="#">Resources</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link nav-link-dark" href="#">Placements</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container py-5">
+      <!-- Our Purpose -->
+      <div class="section-block p-4 mb-5 rounded-3 shadow-sm bg-light">
+        <h2 class="section-title mb-3">Our Purpose</h2>
+        <p>
+          To make high-quality technology education accessible, practical, and
+          aligned with real industry expectations.
+        </p>
+        <p>
+          We help learners build job-ready skills that open doors to meaningful
+          opportunities.
+        </p>
+      </div>
+
+      <!-- What We Offer -->
+      <div class="section-block p-4 mb-5 rounded-3 shadow-sm bg-white border">
+        <h2 class="section-title mb-3">What We Offer</h2>
+        <ul class="list-unstyled ms-2">
+          <li class="mb-2">
+            <i class="bi bi-check-circle-fill text-primary me-2"></i>
+            Industry-curated training programs
+          </li>
+          <li class="mb-2">
+            <i class="bi bi-check-circle-fill text-primary me-2"></i>
+            Hands-on labs, assignments, and capstone projects
+          </li>
+          <li class="mb-2">
+            <i class="bi bi-check-circle-fill text-primary me-2"></i>
+            Job-oriented, outcomes-driven curriculum
+          </li>
+          <li class="mb-2">
+            <i class="bi bi-check-circle-fill text-primary me-2"></i>
+            Flexible learning paths for students and professionals
+          </li>
+          <li class="mb-2">
+            <i class="bi bi-check-circle-fill text-primary me-2"></i>
+            Mentorship from working engineers, developers, and data scientists
+          </li>
+          <li>
+            <i class="bi bi-check-circle-fill text-primary me-2"></i>
+            Certification from
+            <strong class="text-primary">Ushnik Technologies Pvt. Ltd.</strong>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Training Philosophy -->
+      <div class="section-block p-4 mb-5 rounded-3 shadow-sm bg-light">
+        <h2 class="section-title mb-3">Our Training Philosophy</h2>
+        <p>We believe true learning happens through:</p>
+        <ul class="list-unstyled ms-2">
+          <li class="mb-2">
+            <i class="bi bi-lightbulb-fill text-warning me-2"></i>
+            Learning by doing, not just listening
+          </li>
+          <li class="mb-2">
+            <i class="bi bi-lightbulb-fill text-warning me-2"></i>
+            Solving real-world problems, not memorizing theory
+          </li>
+          <li>
+            <i class="bi bi-lightbulb-fill text-warning me-2"></i>
+            Building projects that reflect industry scenarios
+          </li>
+        </ul>
+        <p class="mt-3">
+          Our graduates leave with confidence, hands-on experience, and a clear
+          career direction.
+        </p>
+      </div>
+
+      <!-- Vision -->
+      <div class="section-block p-4 mb-5 rounded-3 shadow-sm bg-white border">
+        <h2 class="section-title mb-3">Our Vision</h2>
+        <p>
+          To become India’s most trusted hub for skill development in emerging
+          technologies and applied engineering learning.
+        </p>
+      </div>
+
+      <!-- Mission -->
+      <div class="section-block p-4 rounded-3 shadow-sm bg-light">
+        <h2 class="section-title mb-3">Our Mission</h2>
+        <p>
+          To empower individuals through industry-driven, high-quality training
+          that accelerates careers and strengthens India’s digital workforce.
+        </p>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

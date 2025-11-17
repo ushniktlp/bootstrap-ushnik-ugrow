@@ -1,0 +1,184 @@
+:root {
+  --first: #0f1016;
+  --second: #fff;
+  --third: #143264;
+  --fourth: #fd5516;
+  --dark-grey: #666666;
+  --medium-grey: #e6e0e0;
+  --light-grey: #fafafa;
+  --dark-footer: #1d152c;
+  --medium-footer: #291f3b;
+  --light-footer: #2a2238;
+  --title-family: "Manrope", sans-serif;
+  --outline-text: "Poppins", sans-serif;
+  --common-family: "Jost", sans-serif;
+  --transition: all 0.3s linear;
+}
+
+body {
+  padding-top: 110px; /* Reserve space for sticky navbars */
+}
+
+.navbar {
+  background-color: var(--third);
+}
+
+/* Dark nav links */
+.nav-link-dark {
+  color: #333 !important;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* Hover effect for cleaner UI */
+.nav-link-dark:hover {
+  color: #0d6efd !important; /* Bootstrap blue */
+}
+
+/* Optional: increase spacing for desktop only */
+@media (min-width: 992px) {
+  .navbar-nav {
+    gap: 24px !important; /* clean spacing */
+  }
+}
+
+/* Individual letter spacing adjustments */
+.ugrow-u {
+  color: #143264;
+}
+
+.ugrow-o {
+  color: #fd5516;
+  margin-left: -0.3rem;
+} /* Bring O closer to R */
+
+/* Base styles for UGROW letters */
+.ugrow-text span {
+  display: inline-block;
+}
+
+/* Ensure the image is responsive */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.statistics {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 0;
+}
+
+.counter {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.label {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+.services-card {
+  padding: 25px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  text-align: center; /* also centers title & text */
+}
+
+.services-card img {
+  width: 60px;
+  margin: 0 auto 15px auto; /* center horizontally */
+  display: block;
+}
+
+.training-card {
+  padding: 25px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.training-card img {
+  width: 70px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.about-content h1 {
+  font-weight: 700;
+}
+
+.about-image {
+  border-radius: 12px;
+}
+
+#about-us-section {
+  background-image: url("images/whitebackground.jpg"); /* your uploaded image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fafafa;
+  background-blend-mode: lighten;
+  padding: 60px 0;
+}
+
+.footer-links a:hover {
+  color: #0d6efd;
+}
+
+.social-icon {
+  width: 32px;
+  height: 32px;
+  transition: 0.3s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
+}
+
+.footer-lightgrey {
+  background-color: #f2f2f2; /* Light grey */
+  color: #333; /* Dark text for readability */
+}
+.footer-lightgrey a {
+  color: #333;
+}
+.footer-lightgrey a:hover {
+  color: #0d6efd; /* Bootstrap primary blue hover */
+}
+
+/* Light grey footer background */
+.footer-lightgrey {
+  background-color: #f2f2f2;
+  color: #333; /* Unified text color for all columns */
+}
+
+/* Footer links (Useful Links, All Courses, Contact) */
+.footer-lightgrey a {
+  color: #333; /* Same color as Contact Us text */
+  text-decoration: none;
+}
+
+.footer-lightgrey a:hover {
+  color: #0d6efd; /* Hover effect (Bootstrap blue) */
+}
+
+/* Footer headings */
+.footer-lightgrey h5,
+.footer-lightgrey h4 {
+  color: #333; /* Same heading color across all columns */
+  font-weight: 600;
+}

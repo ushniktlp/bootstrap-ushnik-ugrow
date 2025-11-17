@@ -1,0 +1,60 @@
+:root {
+  --first: #0f1016;
+  --second: #fff;
+  --third: #143264;
+  --fourth: #fd5516;
+  --dark-grey: #666666;
+  --medium-grey: #e6e0e0;
+  --light-grey: #fafafa;
+  --dark-footer: #1d152c;
+  --medium-footer: #291f3b;
+  --light-footer: #2a2238;
+  --title-family: "Manrope", sans-serif;
+  --outline-text: "Poppins", sans-serif;
+  --common-family: "Jost", sans-serif;
+  --transition: all 0.3s linear;
+}
+
+body {
+  padding-top: 110px; /* Reserve space for sticky navbars */
+}
+
+.navbar {
+  background-color: var(--third);
+}
+
+/* Dark nav links */
+.nav-link-dark {
+  color: #333 !important;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* Hover effect for cleaner UI */
+.nav-link-dark:hover {
+  color: #0d6efd !important; /* Bootstrap blue */
+}
+
+.section-title {
+  font-weight: 700;
+  color: #333;
+}
+
+.section-block p {
+  font-size: 1.05rem;
+  color: #555;
+}
+
+.section-block ul li {
+  font-size: 1.05rem;
+  color: #444;
+}
+
+.section-block {
+  transition: all 0.3s ease;
+}
+
+.section-block:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+}

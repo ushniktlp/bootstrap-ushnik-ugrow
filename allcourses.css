@@ -1,0 +1,73 @@
+:root {
+  --first: #0f1016;
+  --second: #fff;
+  --third: #143264;
+  --fourth: #fd5516;
+  --dark-grey: #666666;
+  --medium-grey: #e6e0e0;
+  --light-grey: #fafafa;
+  --dark-footer: #1d152c;
+  --medium-footer: #291f3b;
+  --light-footer: #2a2238;
+  --title-family: "Manrope", sans-serif;
+  --outline-text: "Poppins", sans-serif;
+  --common-family: "Jost", sans-serif;
+  --transition: all 0.3s linear;
+}
+
+body {
+  padding-top: 110px; /* Reserve space for sticky navbars */
+}
+
+.navbar {
+  background-color: var(--third);
+}
+
+/* Dark nav links */
+.nav-link-dark {
+  color: #333 !important;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* Hover effect for cleaner UI */
+.nav-link-dark:hover {
+  color: #0d6efd !important; /* Bootstrap blue */
+}
+
+.course-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 15px;
+  text-align: center;
+  transition: 0.3s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.course-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.course-img {
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.course-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #333;
+  margin: 15px 0;
+}
+
+.btn-primary {
+  border-radius: 8px;
+  padding: 10px 0;
+  font-weight: 600;
+}

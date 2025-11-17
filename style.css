@@ -1,0 +1,58 @@
+:root {
+  --first: #0f1016;
+  --second: #fff;
+  --third: #143264;
+  --fourth: #fd5516;
+  --dark-grey: #666666;
+  --medium-grey: #e6e0e0;
+  --light-grey: #fafafa;
+  --dark-footer: #1d152c;
+  --medium-footer: #291f3b;
+  --light-footer: #2a2238;
+  --title-family: "Manrope", sans-serif;
+  --outline-text: "Poppins", sans-serif;
+  --common-family: "Jost", sans-serif;
+  --transition: all 0.3s linear;
+}
+
+body {
+  padding-top: 110px; /* Reserve space for sticky navbars */
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .ugrow-o {
+    margin-left: -0.1rem;
+  }
+
+  .img-fluid {
+    margin-top: -200px; /* Adjust this value as needed */
+  }
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+  .img-fluid {
+    display: none; /* Adjust this value as needed */
+  }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .ugrow-o {
+    margin-left: -0.2rem;
+  }
+
+  .img-fluid {
+    width: 300px;
+    margin-top: -100px; /* Adjust this value as needed */
+  }
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}

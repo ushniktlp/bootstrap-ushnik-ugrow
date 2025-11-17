@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ushnik Bootstrap</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="allcourses.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <style></style>
+  </head>
+  <body>
+    <!-- Top Info Navbar (Sticky) -->
+    <nav class="navbar navbar-expand-lg py-2 fixed-top shadow">
+      <div class="container">
+        <div class="d-flex w-100 justify-content-between">
+          <div style="color: white" class="d-flex gap-3">
+            <span><i class="fas fa-map-marker-alt me-1"></i>Hyderabad</span>
+            <span><i class="fas fa-phone me-1"></i>+91 77029 01217 </span>
+            <span><i class="fas fa-envelope me-1"></i>info@ushnik.in</span>
+          </div>
+          <div class="d-flex gap-3">
+            <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Navbar (Sticky) -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow"
+      style="top: 40px"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            style="width: 200px"
+            src="./images/U_GROW.png"
+            alt="U-GROW Logo"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNavbar"
+          aria-controls="mainNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="mainNavbar"
+        >
+          <ul class="navbar-nav gap-4">
+            <!-- gap-4 adds spacing -->
+            <li class="nav-item">
+              <a class="nav-link nav-link-dark" href="home.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link nav-link-dark" href="aboutus.html">About Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link nav-link-dark" href="allcourses.html"
+                >All Courses</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link nav-link-dark" href="programs.html"
+                >Explore Programs</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link nav-link-dark" href="schedule.html"
+                >Course Schedule</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link nav-link-dark" href="#">Resources</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link nav-link-dark" href="#">Placements</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container py-5">
+      <h2 class="text-center mb-5 fw-bold">Our Courses</h2>
+
+      <div class="row g-4">
+        <!-- UI/UX Developer -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="course-card shadow-sm">
+            <img
+              src="./images/uiux.jpg"
+              alt="UI/UX Developer"
+              class="course-img"
+            />
+            <h4 class="course-title">UI/UX Developer</h4>
+            <a href="uiux.html" class="btn btn-primary w-100">Learn More</a>
+          </div>
+        </div>
+
+        <!-- AI & ML Program -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="course-card shadow-sm">
+            <img
+              src="./images/aiml.jpg"
+              alt="AI & ML Program"
+              class="course-img"
+            />
+            <h4 class="course-title">AI & ML Program</h4>
+            <a href="aiml.html" class="btn btn-primary w-100">Learn More</a>
+          </div>
+        </div>
+
+        <!-- Python Full Stack -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="course-card shadow-sm">
+            <img
+              src="./images/pythondevops.jpg"
+              alt="Python Full Stack"
+              class="course-img"
+            />
+            <h4 class="course-title">Python Full Stack Developer</h4>
+            <a href="pythonfullstack.html" class="btn btn-primary w-100"
+              >Learn More</a
+            >
+          </div>
+        </div>
+
+        <!-- Python for AI & ML -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="course-card shadow-sm">
+            <img
+              src="./images/pythonaiml.jpg"
+              alt="Python for AI & ML"
+              class="course-img"
+            />
+            <h4 class="course-title">Python for AI & ML</h4>
+            <a href="pythonaiml.html" class="btn btn-primary w-100"
+              >Learn More</a
+            >
+          </div>
+        </div>
+
+        <!-- Advanced Math for ML -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="course-card shadow-sm">
+            <img
+              src="./images/mathsml.jpg"
+              alt="Advanced Math for ML"
+              class="course-img"
+            />
+            <h4 class="course-title">Advanced Math for ML</h4>
+            <a href="mathsml.html" class="btn btn-primary w-100">Learn More</a>
+          </div>
+        </div>
+
+        <!-- MERN Stack Developer -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="course-card shadow-sm">
+            <img
+              src="./images/mern.jpg"
+              alt="MERN Stack Developer"
+              class="course-img"
+            />
+            <h4 class="course-title">MERN Stack Developer</h4>
+            <a href="mern.html" class="btn btn-primary w-100">Learn More</a>
+          </div>
+        </div>
+
+        <!-- DevOps Program -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="course-card shadow-sm">
+            <img
+              src="./images/devops.jpg"
+              alt="DevOps Program"
+              class="course-img"
+            />
+            <h4 class="course-title">DevOps Program</h4>
+            <a href="devops.html" class="btn btn-primary w-100">Learn More</a>
+          </div>
+        </div>
+
+        <!-- SOC Analyst -->
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="course-card shadow-sm">
+            <img
+              src="./images/soc.jpg"
+              alt="SOC Analyst Program"
+              class="course-img"
+            />
+            <h4 class="course-title">SOC Analyst Program</h4>
+            <a href="socanalyst.html" class="btn btn-primary w-100"
+              >Learn More</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

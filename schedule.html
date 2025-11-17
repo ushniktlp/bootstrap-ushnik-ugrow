@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ushnik Bootstrap</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <style></style>
+  </head>
+  <body>
+    <!-- Top Info Navbar (Sticky) -->
+    <nav class="navbar navbar-expand-lg py-2 fixed-top shadow">
+      <div class="container">
+        <div class="d-flex w-100 justify-content-between">
+          <div style="color: white" class="d-flex gap-3">
+            <span><i class="fas fa-map-marker-alt me-1"></i>Hyderabad</span>
+            <span><i class="fas fa-phone me-1"></i>+91 77029 01217 </span>
+            <span><i class="fas fa-envelope me-1"></i>info@ushnik.in</span>
+          </div>
+          <div class="d-flex gap-3">
+            <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main Navbar (Sticky) -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow"
+      style="top: 40px"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            style="width: 200px"
+            src="./images/U_GROW.png"
+            alt="U-GROW Logo"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNavbar"
+          aria-controls="mainNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="mainNavbar"
+        >
+          <ul class="navbar-nav gap-4">
+            <!-- gap-4 adds spacing -->
+            <li class="nav-item">
+              <a class="nav-link nav-link-dark" href="home.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link nav-link-dark" href="aboutus.html">About Us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link nav-link-dark" href="allcourses.html"
+                >All Courses</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link nav-link-dark" href="programs.html"
+                >Explore Programs</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link nav-link-dark" href="schedule.html"
+                >Course Schedule</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link nav-link-dark" href="#">Resources</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link nav-link-dark" href="#">Placements</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <br />
+
+    <div class="container py-5">
+      <div class="row g-4">
+        <!-- Weekday Batches -->
+        <div class="col-12 col-md-6">
+          <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white text-center fw-bold">
+              Weekday Batches
+            </div>
+
+            <div class="table-responsive">
+              <table class="table table-striped table-bordered mb-0">
+                <thead class="table-light">
+                  <tr class="fw-bold">
+                    <th>Course Name</th>
+                    <th>Day & Time</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>UI/UX Developer</td>
+                    <td>7 PM – 9 PM</td>
+                  </tr>
+                  <tr>
+                    <td>Python Full Stack</td>
+                    <td>6 PM – 8 PM</td>
+                  </tr>
+                  <tr>
+                    <td>MERN Stack</td>
+                    <td>8:30 PM – 10 PM</td>
+                  </tr>
+                  <tr>
+                    <td>AI & Machine Learning</td>
+                    <td>6:30 PM – 8:30 PM</td>
+                  </tr>
+                  <tr>
+                    <td>Mathematics for ML</td>
+                    <td>8 PM – 9 PM</td>
+                  </tr>
+                  <tr>
+                    <td>DevOps Program</td>
+                    <td>7:30 AM – 9 AM</td>
+                  </tr>
+                  <tr>
+                    <td>SOC Analyst Program</td>
+                    <td>Mon–Fri, 10 AM – 11 AM</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- Weekend Batches -->
+        <div class="col-12 col-md-6">
+          <div class="card shadow-sm">
+            <div class="card-header bg-primary text-white text-center fw-bold">
+              Weekend Batches
+            </div>
+
+            <div class="table-responsive">
+              <table class="table table-striped table-bordered mb-0">
+                <thead class="table-light">
+                  <tr class="fw-bold">
+                    <th>Course Name</th>
+                    <th>Day & Time</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Python for AI/ML</td>
+                    <td>Sat & Sun, 10 AM – 12 PM</td>
+                  </tr>
+                  <tr>
+                    <td>DevOps</td>
+                    <td>Sat & Sun, 3 PM – 5 PM</td>
+                  </tr>
+                  <tr>
+                    <td>AI & ML Fast Track</td>
+                    <td>Sat & Sun, 9 AM – 12 PM</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
